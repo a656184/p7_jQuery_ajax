@@ -1,7 +1,6 @@
 $(document).ready(function(){
   $("#get_color").on('click', function(e){
     e.preventDefault();
-    console.log('this worked');
     $.ajax({
       type: 'get',
       url: '/colors',
